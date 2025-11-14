@@ -505,14 +505,14 @@ body.mobile-nav-active #mobile-nav-toggle {
   -ms-flex-direction: column;
   flex-direction: column;
   text-align: center;
-  padding: 0 15px;
+  padding: 200px 15px 0 15px;
 }
 
 
 #intro h1 {
   color: #fff;
   font-family: "Raleway", sans-serif;
-  font-size: 90px;
+  font-size: 72px;
   font-weight: 600;
   text-transform: uppercase;
 }
@@ -520,7 +520,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #intro h2 {
   color: #fff;
   font-family: "Raleway", sans-serif;
-  font-size: 64px;
+  font-size: 48px;
   font-weight: 600;
   text-transform: uppercase;
 }
@@ -1684,5 +1684,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   #intro h2 {
     font-size: 22px; /* 在手機上使用較小的 h2 字體 */
     margin-bottom: 20px;
+  }
+  
+  #intro .intro-container {
+    padding-top: 60px; /* 在手機上，將頂部間距覆蓋為 80px */
   }
 }
